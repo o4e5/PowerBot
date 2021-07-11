@@ -40,7 +40,7 @@ To start the bot you simply need to launch, either your terminal (Linux, Mac & W
 python bot.py
 ```
 
-##Requirement
+## Requirement
 
 ```
 pip install discord.py
