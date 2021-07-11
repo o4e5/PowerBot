@@ -1,7 +1,7 @@
 {
-  "bot_prefix": ".",
-  "token": "ODYzNTk0MTEwODI1MDA1MDU3.YOpKsA.-VnhVEna-iUyyOPVQtVwNioaVXo",
-  "application_id": "757059060544569495",
+  "bot_prefix": "PREFIX",
+  "token": "YOUR_TOKEN",
+  "application_id": "YOUR_APPLICATION_ID",
   "owners": [
     123456789,
     987654321
