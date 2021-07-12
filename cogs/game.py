@@ -82,16 +82,16 @@ class Fun(commands.Cog, name="게임"):
                 result_embed.description = f"**비겼어요!**\n{context.message.author}님이 {user_choice_emote}, 저는 {bot_choice_emote}를 냈어요!"
                 result_embed.colour = 0xF59E42
             elif user_choice_index == 0 and bot_choice_index == 2:
-                result_embed.description = f"**{context.message.author}님이 이겼네요!**\nYou've chosen {user_choice_emote} 저는 {bot_choice_emote}를 냈어요!"
+                result_embed.description = f"**{context.message.author}님이 이겼네요!**\n{context.message.author}님은 {user_choice_emote}를 골랐고 저는 {bot_choice_emote}를 냈어요!"
                 result_embed.colour = 0x42F56C
             elif user_choice_index == 1 and bot_choice_index == 0:
-                result_embed.description = f"**{context.message.author}님이 이겼네요!**\nYou've chosen {user_choice_emote} 저는 {bot_choice_emote}."
+                result_embed.description = f"**{context.message.author}님이 이겼네요!**\n{context.message.author}님은 {user_choice_emote}를 골랐고 저는 {bot_choice_emote}를 냈어요!"
                 result_embed.colour = 0x42F56C
             elif user_choice_index == 2 and bot_choice_index == 1:
-                result_embed.description = f"**{context.message.author}님이 이겼네요!**\nYou've chosen {user_choice_emote} 저는 {bot_choice_emote}."
+                result_embed.description = f"**{context.message.author}님이 이겼네요!**\n{context.message.author}님은 {user_choice_emote}를 골랐고 저는 {bot_choice_emote}를 냈어요!"
                 result_embed.colour = 0x42F56C
             else:
-                result_embed.description = f"**I won!**\nYou've chosen {user_choice_emote} and I've chosen {bot_choice_emote}."
+                result_embed.description = f"**제가 이겼네요!**\n{context.message.author}님은 {user_choice_emote}를, 저는 {bot_choice_emote}를 골랐어요."
                 result_embed.colour = 0xE02B2B
                 await choose_message.add_reaction("🇱")
             await choose_message.edit(embed=result_embed)
